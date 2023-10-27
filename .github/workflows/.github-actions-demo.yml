@@ -9,7 +9,8 @@ on:
       - master
 
 permissions:
-  contents: { read , write}
+  contents: read
+#  contents: { read , write}
 
 jobs:
   build:
